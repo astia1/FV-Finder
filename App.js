@@ -1,20 +1,7 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import * as React from "react";
+import { StatusBar } from "expo-status-bar";
+import HomeScreen from "./Screens/HomeScreen";
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>FV Finder</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  return <HomeScreen />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
