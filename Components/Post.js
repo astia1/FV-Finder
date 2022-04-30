@@ -16,13 +16,8 @@ const postFooterIcons = [
       "https://img.icons8.com/fluency-systems-regular/48/a9a9a9/comments--v1.png",
   },
   {
-    name: "Share",
+    name: "Pin",
     imageUrl: "https://img.icons8.com/color/344/map-pin.png",
-  },
-  {
-    name: "Save",
-    imageUrl:
-      "https://img.icons8.com/fluency-systems-regular/48/a9a9a9/bookmark-ribbon--v1.png",
   },
 ];
 

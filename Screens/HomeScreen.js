@@ -3,6 +3,7 @@ import Header from "../Components/Header";
 import Post from "../Components/Post";
 import { View, Text, SafeAreaView, StyleSheet, ScrollView } from "react-native";
 import { POSTS } from "../data/posts";
+import BottomTabs, { bottomTabsIcons } from "../Components/BottomTabs";
 
 const HomeScreen = () => {
   return (
@@ -13,6 +14,7 @@ const HomeScreen = () => {
           <Post post={post} key={index} />
         ))}
       </ScrollView>
+      <BottomTabs icons={bottomTabsIcons} />
     </SafeAreaView>
   );
 };
